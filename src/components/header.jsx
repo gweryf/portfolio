@@ -1,10 +1,11 @@
 const Header = ()=>{
     return(
-        <nav>
-            <div className="header">.gweryf()</div>
+        <nav className="navbar">
+            <div className="header"><a href="/">.gweryf()</a></div>
             <div className="navlinks"> 
-                <div>//about</div>
-                <div>//contact</div>
+                <div><a href="/about">//about</a></div>
+                <div><a href="/video">//video</a></div>
+                <div><a href="/contact">//contact</a></div>
             </div>
         </nav>
     )
