@@ -1,0 +1,27 @@
+.navbar {
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh;
+    text-decoration: none;
+
+    .header{
+        font-size: larger;
+    }
+
+    .navlinks{
+        display: flex;
+        gap: 3vh;
+        text-decoration: none;
+        font-size: large;
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+} 

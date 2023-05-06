@@ -1,3 +1,5 @@
+import "../styles/navbar.scss"
+
 const Header = ()=>{
     return(
         <nav className="navbar">
