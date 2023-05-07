@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Header from '../components/header'
 import Skills from '../components/skills'
+import Projects from '../components/project'
 import "../styles/app.scss"
 
 function App() {
@@ -31,7 +32,9 @@ function App() {
       <section className='hidden'> 
         <Skills/>
       </section>
-      <section className='hidden'></section>
+      <section className='hidden'>
+        <Projects/>
+      </section>
     </>
   )
 }
