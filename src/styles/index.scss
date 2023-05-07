@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+$background-color: #141A25;
+$text-color:#FFFFFF;
+$link-color:#66c4d7;
+*{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+}
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.show{
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0%);
+}
+.skilltable:nth-child(2){
+  transition-delay: 400ms;
+}
+.skilltable:nth-child(3){
+  transition-delay: 600ms;
+}
