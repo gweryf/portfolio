@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import Header from '../components/header'
 import Skills from '../components/skills'
 import Projects from '../components/project'
-import "../styles/app.scss"
+import "../styles/App.scss"
 
 function App() {
   const observer = new IntersectionObserver((entries)=>{
