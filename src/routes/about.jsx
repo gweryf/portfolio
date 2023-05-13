@@ -3,8 +3,12 @@ const About = ()=>{
     return(
         <>
             <Header/>
-            <section></section>
-            <section></section>
+            <section className="hidden">
+                <div>
+                    
+                </div>
+            </section>
+            <section className="hidden"></section>
         </>
     )
 }

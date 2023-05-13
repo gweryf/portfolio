@@ -1,4 +1,4 @@
-import cv from "../assets/cv-builder.png"
+import cv from "../assets/cv-builder.webp"
 import todo from "../assets/todo-app.png"
 import etch from "../assets/etch-a-sketch.png"
 import mem from "../assets/memory-card.png"
@@ -17,7 +17,7 @@ const Projects = ()=>{
                     <div className="details"> 
                         <h2>CV Builder</h2>
                         <div>
-                            <button><a href="https://cv-builder-lac.vercel.app/">Live Preview</a></button>
+                            <button><a href="https://cv-builder-lac.vercel.app/">Preview</a></button>
                             <button><a href="https://github.com/gweryf/cv-builder">Github</a></button>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const Projects = ()=>{
                     <div className="details"> 
                         <h2>To-Do App</h2>
                         <div>
-                            <button><a href="https://gweryf.github.io/to-do-app/">Live Preview</a></button>
+                            <button><a href="https://gweryf.github.io/to-do-app/">Preview</a></button>
                             <button><a href="https://github.com/gweryf/to-do-app">Github</a></button>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ const Projects = ()=>{
                     <div className="details"> 
                         <h2>Etch-a-Sketch</h2>
                         <div>
-                            <button><a href="https://gweryf.github.io/etch-a-sketch/">Live Preview</a></button>
+                            <button><a href="https://gweryf.github.io/etch-a-sketch/">Preview</a></button>
                             <button><a href="https://github.com/gweryf/etch-a-sketch">Github</a></button>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ const Projects = ()=>{
                     <div className="details"> 
                         <h2>Weather App</h2>
                         <div>
-                            <button><a href="https://gweryf.github.io/weather-app/">Live Preview</a></button>
+                            <button><a href="https://gweryf.github.io/weather-app/">Preview</a></button>
                             <button><a href="https://github.com/gweryf/weather-app">Github</a></button>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const Projects = ()=>{
                     <div className="details"> 
                         <h2>Memory Card</h2>
                         <div>
-                            <button><a href="https://memory-card-kappa.vercel.app/">Live Preview</a></button>
+                            <button><a href="https://memory-card-kappa.vercel.app/">Preview</a></button>
                             <button><a href="https://github.com/gweryf/memory-card">Github</a></button>
                         </div>
                     </div>
