@@ -1,16 +1,24 @@
 
 .firstcard{
+    background-image: url(../assets/jelly.png);
+    background-position: center center;
+    background-size: 60%;
+    background-blend-mode:hard-light;
+    background-repeat: no-repeat;
     div{
         text-align: center;
     }
     
     .content{
+        background-color: transparent;
         h1{
             font-weight: bold;
             font-size: 50px;
+            background-color: transparent;
         }
         p{
             font-size: 30px;
+            background-color: transparent;
         }
     }
 }
