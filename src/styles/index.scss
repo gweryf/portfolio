@@ -20,6 +20,9 @@ section {
   transform: translateX(-100%);
   transition: all 1s;
 }
+button{
+  cursor: pointer;
+}
 .show{
   opacity: 1;
   filter: blur(0px);
