@@ -1,4 +1,3 @@
-@import "index";
 .navbar {
     position: sticky;
     top: 0;
@@ -20,7 +19,12 @@
         font-size: large;
         a{
             text-decoration: none;
-            color: $link-color;
+            color: #e51414;
+            transition: all .4s ease-out;
+        }
+        a:hover{
+            color: #f4e5e5;
+            transition: all .4s ease-out;
         }
     }
     a{

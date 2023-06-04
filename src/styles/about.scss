@@ -1,39 +1,4 @@
-@import "index";
-.about{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    img {
-        width: 200px;
-        height: 200px;
-        object-fit:cover;
-        border-radius: 50%;
-    }
-    .links{
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-    .res{
-        background-color: transparent;
-        vertical-align: middle;
-    }
-}
-.cv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
-.details{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    h1{
-        margin-bottom: 0;
-    }
-}
+//general animation on visibilty in viewport
 .hidden{
     opacity: 0;
     filter: blur(5px);
@@ -45,6 +10,45 @@
     filter: blur(0px);
     transform: translateX(0%);
 }
+//developer details
+.details{
+    max-width: 1000px;
+    h1{
+        font-size: 50px;
+        font-weight: 800;
+    }
+    .abtdes{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: large;
+    }
+}
+.skillsdes{
+    p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: larger;
+        font-weight: 700;
+    }
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        p{
+            background-color: inherit;
+        }
+        .res{
+            background-color: inherit;
+        }
+    }
+}
+//made with 
 .cols{
     width: 100%;
     display: grid;
@@ -54,6 +58,7 @@
 .col{
     .title{
         margin-bottom: 50px;
+        font-size: xx-large;
     }
     li{
         font-size: 18px;
@@ -75,4 +80,8 @@
 .artists:hover{
     color: #f4e5e5;
     transition: all .4s ease-out;
+}
+.skillcol{
+    list-style-type: none;
+    padding: 20px;
 }

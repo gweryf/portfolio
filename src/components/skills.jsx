@@ -3,7 +3,7 @@ import { IoLogoReact, IoLogoJavascript, IoLogoChrome } from "react-icons/io5";
 const Skills = ()=>{
     return(
         <div className="myskills"> 
-            <h1>My Skills</h1>
+            <h1 className="skilltit">My Skills</h1>
             <div className="skills">
                 <div className="skilltable hidden">
                     <IoLogoReact size='70px'/>

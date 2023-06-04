@@ -27,29 +27,26 @@ const About = ()=>{
             <Header/>
             <section className="hidden">
                 <div className="about">
-                    <img src={prof} alt="Profile pic"/>
                     <div className="details">
-                        <h1>Hi, I am Priyam Shrivastava👋🏼</h1>
+                        <h1>Priyam Shrivastava</h1>
                         <div className="links">
-                            <IoLogoGithub size='30px'/>
-                            <IoLogoLinkedin size="30px"/>
-                            <div className="cv">
-                                Download my Resume  
-                                <a target="_blank" href={res}><button>Resume {<IoCloudDownloadOutline className="res" />}</button></a>
-                            </div>
+                            <a target="_blank" href="https://github.com/gweryf"><IoLogoGithub size='30px'/></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/shrivastavpriyam/"><IoLogoLinkedin size="30px"/></a>
+                            <a target="_blank" href={res}><button><p>Resume</p> {<IoCloudDownloadOutline className="res" size="17px" />}</button></a>
                         </div>
-                        <p>
-                        Frontend developer heavily influenced by interactions, and UX. Addicted to music, visual arts, and games.
+                        <p className="abtdes">
+                        Frontend developer heavily influenced by interactions, and UX. Addicted to music, visual arts, and games. My journey in the world of web development began when I discovered my fascination for crafting seamless user experiences
+
                         </p>
-                        <p>
+                        <p className="abtdes">
                         From India, based in Mumbai.
                         </p>
-                        <div>
+                        <div className="skillsdes">
                           <p>Main Skills:</p>
-                          <ul>
-                            <li>Frontend, UX/UI</li>
-                            <li>JavaScript, CSS, HTML, React, SVG</li>
-                            <li>Figma, Photoshop</li>
+                          <ul className="cols">
+                            <li className="skillcol">Frontend, UX/UI</li>
+                            <li className="skillcol">JavaScript, CSS, HTML, React, SVG</li>
+                            <li className="skillcol">Figma, Photoshop</li>
                           </ul>
                         </div>
                     </div>

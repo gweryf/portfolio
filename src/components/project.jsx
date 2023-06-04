@@ -14,7 +14,7 @@ const Projects = ()=>{
             <div className="container">
                 <div className="skilltable item1">
                     <img src={cv} alt="screenshoit of the project cv-builder" />
-                    <div className="details"> 
+                    <div className="detailed"> 
                         <h2>CV Builder</h2>
                         <div>
                             <button><a href="https://cv-builder-lac.vercel.app/">Preview</a></button>
@@ -24,7 +24,7 @@ const Projects = ()=>{
                 </div>
                 <div className="skilltable item2">
                     <img src={todo} alt="screenshoit of the project cv-builder" />
-                    <div className="details"> 
+                    <div className="detailed"> 
                         <h2>To-Do App</h2>
                         <div>
                             <button><a href="https://gweryf.github.io/to-do-app/">Preview</a></button>
@@ -34,7 +34,7 @@ const Projects = ()=>{
                 </div>
                 <div className="skilltable item3">
                     <img src={etch} alt="screenshoit of the project cv-builder" />
-                    <div className="details"> 
+                    <div className="detailed"> 
                         <h2>Etch-a-Sketch</h2>
                         <div>
                             <button><a href="https://gweryf.github.io/etch-a-sketch/">Preview</a></button>
@@ -46,7 +46,7 @@ const Projects = ()=>{
             <div className="container">
                 <div className="skilltable item1">
                     <img src={wea} alt="screenshoit of the project cv-builder" />
-                    <div className="details"> 
+                    <div className="detailed"> 
                         <h2>Weather App</h2>
                         <div>
                             <button><a href="https://gweryf.github.io/weather-app/">Preview</a></button>
@@ -56,7 +56,7 @@ const Projects = ()=>{
                 </div>
                 <div className="skilltable item2">
                     <img src={mem} alt="screenshoit of the project cv-builder" />
-                    <div className="details"> 
+                    <div className="detailed"> 
                         <h2>Memory Card</h2>
                         <div>
                             <button><a href="https://memory-card-kappa.vercel.app/">Preview</a></button>
@@ -66,7 +66,7 @@ const Projects = ()=>{
                 </div>
                 <div className="skilltable item3">
                     <img src={bit} alt="screenshoit of the project cv-builder" />
-                    <div className="details"> 
+                    <div className="detailed"> 
                         <h2>Bit Hunter</h2>
                         <div>
                             <button><a href="https://github.com/gweryf/105_BigBitPirates_Hackover3.0">Github</a></button>
