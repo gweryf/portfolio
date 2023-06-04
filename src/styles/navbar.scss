@@ -32,3 +32,28 @@
         color: inherit;
     }
 } 
+.mobnav{
+    display: none;
+}
+
+@media only screen and (max-width: 800px){
+    .navbar{
+        display: none;
+    }
+    .mobnav{
+        position: fixed;
+        z-index: 1;
+        bottom: 0;
+        height: 65px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .mobnavlink{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

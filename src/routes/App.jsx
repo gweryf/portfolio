@@ -25,7 +25,7 @@ function App() {
       <Header/>
       <section className='firstcard hidden'>
         <div className='content'>
-          <h1>Priyam Shrivastava</h1>
+          <h1 className='content-name'>Priyam Shrivastava</h1>
           <p>Frontend Developer</p>
         </div>
       </section>
