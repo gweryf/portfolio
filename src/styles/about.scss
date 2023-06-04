@@ -56,7 +56,7 @@
 .cols{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px,auto));
+    grid-template-columns: repeat(auto-fit, minmax(80px,auto));
     justify-content: center;
 }
 .col{
@@ -88,4 +88,27 @@
 .skillcol{
     list-style-type: none;
     padding: 20px;
+}
+@media only screen and (max-width:800px){
+    .details h1{
+        text-align: center;
+    }
+    .links{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .abtdes{
+        padding: 40px;
+    }
+    .skillsdes{
+        margin-right: 60px;
+    }
+    .skillsdes p{
+        padding: 40px;
+    }
+    .cols{
+        margin-right: 30px;
+    }
 }
