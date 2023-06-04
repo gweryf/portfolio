@@ -89,6 +89,13 @@
     list-style-type: none;
     padding: 20px;
 }
+ul{
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    text-align: center;
+}
 @media only screen and (max-width:800px){
     .details h1{
         text-align: center;
