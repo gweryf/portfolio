@@ -56,7 +56,7 @@
 .cols{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px,auto));
+    grid-template-columns: repeat(auto-fit, minmax(80px,auto));
     justify-content: center;
 }
 .col{
